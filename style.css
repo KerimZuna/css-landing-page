@@ -121,7 +121,7 @@ a{
 .boxes > div{
     width: 150px;
     height: 150px;
-    border: 2px solid blue;
+    border: 3px solid blue;
     border-radius: 15px;
 }
 
@@ -139,4 +139,35 @@ a{
     border-radius: 15px;
     padding: 2px;
     text-align: center;
+}
+.page-content-wrap-3{
+    display: flex;
+    background-color: #E5E7EB;
+    height: 400px;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.page-content-3{
+    display: flex;
+    width: 700px;
+    height: 250px;
+    display: inline-block;
+    justify-content: space-between;
+}
+.main-page-content-3{
+    width: 700px;
+    height: 170px;
+}
+.quote{
+    font-size: 30px;
+    font-weight: lighter;
+    color: #1F2937;
+    font-style: italic;
+}
+.author{
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
 }
